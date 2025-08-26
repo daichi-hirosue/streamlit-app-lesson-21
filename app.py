@@ -6,7 +6,7 @@ from langchain.schema import SystemMessage, HumanMessage
 
 llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0)
 
-st.title("treamlitを活用したWebアプリ開発")
+st.title("Streamlitを活用したWebアプリ開発")
 
 st.write("##### 食事に関するアドバイザー")
 st.write("食事に関する相談を入力フォームにテキストを入力し、「実行」ボタンを押すことでアドバイスをもらえます")
